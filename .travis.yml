@@ -21,9 +21,7 @@ deploy:
   on:
     branch: master
 notifications:
-  slack:
-    rooms:
-    - $SLACK_CHANNEL
+  slack: $SLACK_CHANNEL
   email:
     reciepients:
     - juniorjose.aguilarparra@gmail.com
