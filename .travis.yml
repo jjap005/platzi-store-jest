@@ -23,7 +23,7 @@ deploy:
 notifications:
   slack:
     rooms:
-	  - $SLACK_CHANNEL
+    - $SLACK_CHANNEL
   email:
     reciepients:
     - juniorjose.aguilarparra@gmail.com
