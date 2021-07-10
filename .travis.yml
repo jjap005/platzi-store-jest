@@ -20,7 +20,7 @@ deploy:
   commit_message: "Deploy release ${TRAVIS_TAG}"
   on:
     branch: master
- notifications:
+notifications:
   email:
     reciepients:
     - juniorjose.aguilarparra@gmail.com
